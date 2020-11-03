@@ -7,8 +7,8 @@ public class Main {
         int height = readHeight();
         System.out.println();
 
-        if (height < 1) {
-            System.out.println("You entered incorrect height. The height must be greater than 1.");
+        if (height <= 0 ) {
+            System.out.println("You entered incorrect height. The height must be greater than or equal to 1.");
             return;
         }
 
